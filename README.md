@@ -34,7 +34,10 @@ Following are the technologies used to design and develop the Dine In applicatio
 
 ## 3rd party library
 Following is a list of all the 3rd party library used in the project -
-  * Ramotion Paper OnBoarding ([Link](https://github.com/Ramotion/paper-onboarding-android))
+  * Paper OnBoarding by Ramotion ([Link](https://github.com/Ramotion/paper-onboarding-android))
+  * RxPermissions by Thomas Bruyelle ([Link](https://github.com/tbruyelle/RxPermissions))
+  * Retrofit by Square ([Link](https://github.com/square/retrofit))
+  * Picasso by Square ([Link](https://github.com/square/picasso)
 
 ## API Reference
 Following [Foursquare](https://foursquare.com) APIs were used in the project -
