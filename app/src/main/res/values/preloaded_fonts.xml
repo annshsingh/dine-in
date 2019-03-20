@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Array resource for all the fonts -->
+
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/crimson_text</item>
+        <item>@font/ubuntu</item>
+        <item>@font/ubuntu_light</item>
+        <item>@font/ubuntu_medium</item>
+    </array>
+</resources>

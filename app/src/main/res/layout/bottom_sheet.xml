@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottom_sheet"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:behavior_peekHeight="0dp"
+        android:background="@color/white"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <TextView
+            android:id="@+id/bottom_res_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diggin"
+            android:gravity="center"
+            android:textColor="#323232"
+            android:fontFamily="@font/ubuntu_medium"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"/>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/description_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible"
+                android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Description"
+                      android:layout_marginTop="8dp"
+                      android:gravity="center"
+                      android:textColor="#757575"
+                      android:fontFamily="@font/ubuntu_medium"
+                      android:textSize="14sp"/>
+
+            <TextView
+                    android:id="@+id/bottom_res_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Long Description Long Description Long Description Long Description Long Description Long Description"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:textColor="#9e9e9e"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/description_layout"
+                android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:textColor="#757575"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textSize="14sp"/>
+
+            <TextView
+                    android:id="@+id/bottom_res_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9079068513"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:textColor="#2962ff"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/operationhrs_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/phone_layout"
+                android:visibility="invisible"
+                android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Operating hours"
+                      android:layout_marginTop="8dp"
+                      android:gravity="center"
+                      android:textColor="#757575"
+                      android:fontFamily="@font/ubuntu_medium"
+                      android:textSize="14sp"/>
+
+            <TextView
+                    android:id="@+id/bottom_res_operatinghrs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10:00 AM–11:30 PM"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:textColor="#9e9e9e"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+        <TextView
+                android:id="@+id/bottom_res_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/operationhrs_layout"
+                android:text="Visit place on Foursquare"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="#e91e63"
+                android:visibility="invisible"
+                android:fontFamily="@font/ubuntu_medium"
+                android:layout_marginBottom="10dp"
+                android:padding="4dp"
+                android:textSize="14sp"/>
+
+        <ProgressBar
+                android:id="@+id/details_progress"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:indeterminate="true"
+                android:visibility="visible"
+                android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

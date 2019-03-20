@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.floatingactionbutton.FloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fab_scroll_up"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:layout_marginBottom="24dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    app:srcCompat="@drawable/ic_up"
+    android:visibility="gone"
+    app:backgroundTint="#90757575"
+    app:borderWidth="0dp"
+    app:elevation="0dp"
+    app:fabSize="mini" />

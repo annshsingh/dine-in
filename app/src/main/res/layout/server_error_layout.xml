@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/no_filter_layout"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="100dp"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/no_filter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_server_error"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/server_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_filter"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="#323232"
+        android:fontFamily="@font/ubuntu"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="We're working to sort this issue out!"
+        />
+</RelativeLayout>

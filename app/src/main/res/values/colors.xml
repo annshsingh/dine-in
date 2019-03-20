@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Color resources used in the application -->
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="AppColor">#FFFFFF</color>
+    <color name="colorPrimaryDark">@android:color/transparent</color>
+    <color name="colorAccent">#323232</color>
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="black_transparent">#14000000</color>
+    <color name="black_transparent_image">#46000000</color>
+    <color name="colorEdgeEffect">#80000000</color>
+    <color name="snackbar">#C62828</color>
+    <color name="dimcolor">#20000000</color>
+</resources>

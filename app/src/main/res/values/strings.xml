@@ -1,0 +1,16 @@
+
+<!-- String resources used in the app -->
+
+<resources>
+    <string name="app_name">Dine In</string>
+    <string name="onBoardingOneTitle">Dine</string>
+    <string name="onBoardingOneSubTitle">Get ready to Fuel your tummy at the best places in town</string>
+    <string name="onBoardingTwoTitle">Restaurants</string>
+    <string name="onBoardingTwoSubTitle">All the restaurants are sorted by popularity. Dine In helps you find what\'s best Near You</string>
+    <string name="onBoardingThreeTitle">Get Started</string>
+    <string name="onBoardingThreeSubTitle">Swipe Left to Get Started
+        \nDine in uses your location to fetch a curated feed.
+        \n(Grant Location permission on the next screen)</string>
+
+    <string name="no_internet">Please check your internet and location services and try again!</string>
+</resources>
