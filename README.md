@@ -36,6 +36,17 @@ Following are the technologies used to design and develop the Dine In applicatio
 Following is a list of all the 3rd party library used in the project -
   * Ramotion Paper OnBoarding ([Link](https://github.com/Ramotion/paper-onboarding-android))
 
+## API Reference
+Following [Foursquare](https://foursquare.com) APIs were used in the project -
+  * Explore API (Regular) to fetch a list of nearby venues - [Link](https://developer.foursquare.com/docs/api/venues/explore)
+  * Venue Details API (Premium) to fetch additional details of a venue - [Link](https://developer.foursquare.com/docs/api/venues/details)
+  * Click [here](https://developer.foursquare.com/docs/api/endpoints) for all API End point references
+  * **NOTE** - Account used is a Sandbox Account with following restrictions
+    * 950 Regular Calls / Day
+    * 50 Premium Calls / Day
+    * 1 Photo per Venue
+    * 1 Tip per Venue
+    
 ### Created by
 [Annsh Singh](https://github.com/annshsingh)
 ([LinkedIn](https://www.linkedin.com/in/annsh/))
