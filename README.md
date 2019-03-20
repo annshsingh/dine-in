@@ -1,7 +1,10 @@
-![alt text](https://github.com/annshsingh/dine-in-fueled/blob/master/header.png)
+![Header](https://github.com/annshsingh/dine-in-fueled/blob/master/header.png)
 
 # Dine In
 This app was designed and developed for members of Fueled as a one stop guide to find best restaurants to dine at.
+
+## App Screenshots
+<img src="https://github.com/annshsingh/dine-in-fueled/blob/master/Screenshot_1.png" alt="Screen1" width="155px" height="280px"><img src="https://github.com/annshsingh/dine-in-fueled/blob/master/Screenshot_2.png" alt="Screen1" width="155px" height="280px"><img src="https://github.com/annshsingh/dine-in-fueled/blob/master/Screenshot_3.png" alt="Screen1" width="155px" height="280px">
 
 ## App Features
 Following are the features one can find on the app -
