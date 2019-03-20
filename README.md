@@ -1,3 +1,5 @@
+![alt text](https://github.com/annshsingh/dine-in-fueled/blob/master/header.png)
+
 # Dine In
 This app was designed and developed for members of Fueled as a one stop guide to find best restaurants to dine at.
 
