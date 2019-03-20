@@ -108,13 +108,13 @@ class HomeFeedAdapter(
                                     holder.hideIcon.setImageResource(R.drawable.ic_undo)
                                     holder.hideText.text = "UNDO (You are not interested in this venue)"
                                     holder.hideText.setTextColor(Color.parseColor("#13cb86"))
-                                    holder.topLayout.visible()
+                                    holder.topLayout.gone()
                                 }
                             }
                             holder.hideIcon.setImageResource(R.drawable.ic_thumbs_down)
                             holder.hideText.text = "NOT INTERESTED"
                             holder.hideText.setTextColor(Color.parseColor("#b71c1c"))
-                            holder.topLayout.gone()
+                            holder.topLayout.visible()
                         }
                     }
                 })
